@@ -1,0 +1,125 @@
+Animation Shop
+Animation shop allows you to create 3D models that can move, and then allows you to complie these models into an easy format to use in other programs. To use this help system, select the topic you want to view on the left, and read on the right. Double click a topic with a plus next to it to see more.
+
+Layout
+This is a breif discription of the main window, so you know what is what. At the top of the screen is the menu bar. Below that are the three tool bars. Thought you can move them around, they are normally in the following order - File tool bar (Contains options that are also found in the menu bar, such as Open, New or open) - The Edit tool bar (Contains 6 six different tools to edit your model) - The Misq tool bar (Contains less common tools). Below the tool bars is the main edit window. This is the window with five tabs along the top. On the right in the side bar. This contains options to give more control over each of the edit tools. As you swap edit tools, the options in the side bar change
+
+Views
+You have 5 ways of viewing your model. They are accessed by using the five tabs along the top of the edit window. The views are as follows - Top view View from top - Side view (duhh) - Front view (see prev.) - 3D view View your model in threeD wire frame - Model Preview View you model in 3D using dirctX to speed up the drawings.
+
+Menus
+The menus are found, as always, at the top of the screen. This is a quick rundown of what each one does.
+
+File Menu
+New - Starts a new model
+Open - Opens an exising model
+Save - Saves a model that already has a file name
+Save as - Saves a model with a new name
+Properties - Displays the models properties
+Import - Loads objects from a file; see Importing objects
+Export - Turns your model into a easy, compressed format
+Exit - End the program
+
+Edit menu
+Undo - Reverse last action
+Copy - Copys selected items to memory
+Paste - Pastes copied items back into your model
+Copy to - Copies selected objects to a file for permenet storage
+Paste from - Pastes objects from a permenent file into your model
+Duplicate - Makes a copy of whatever is selected
+Delete - Removes whatever is selected
+Select all - Selects everything in your model
+Deselect all - Unselects all
+Group - Joints all the selected items together
+Ungroup - Breaks a group into its previous parts
+Settings - Displays Animation Shops settings
+
+View Menu
+Zoom - Contains different zoom sizes
+Render mode - Contains different ways for DirectX to draw the model preview
+Light style - Contains a list of light effects to be used in preview mode
+Draw skeliton - Displays the models skeliton
+Draw model - Displays the models objects
+Perspective - Makes things smaller as they move away from you
+Hidden faces - If a face is pointing away from you, its hidden, and can be removed
+Print screen - Contains options for creating bitmaps of what you can see
+
+Animation
+Animation - Opens the scene editor window
+
+3D views
+There are two 3D view, the wire frame mode, and the preview mode. In wireframe, you can view your model, and the skeliton used for animation. You can choose several options to alter the view including Perspective - Do things get smaller as they move away? Hidden Face removal - If faces are looking away from the screen, they are removed. Model/Skeliton - are the models objects or skeleton displayed? These options are found in the 'VEIW' menu. You can rotate the object by dragging the left mouse button, or reposition the model by dragging the right mouse button. In the model preview mode, the model is displayed using DirectX. There are different options avalible in this mode, including render mode and light effect. To change Render mode, select 'View' 'Render mode' from the menu. Avalible options are Points (Just highlight the corners) Wireframe (Outlines the edges) Flatshade (Fill in the faces with a single colour, using light effects) Groud (Smooth out the corners of the faces with a blend of colours, using light effects). To change light effects, select 'View' 'Light Effect' from the menu.
+
+Light Effects
+The top option is a steady light. The next three are preset light effects, which fit their discription. The options at the bottom allow you to create your own light pattern. Click on an unused space. An input box will appear. Enter a chain of letters between A and Z. An A will represent complete darkness, and Z will represent full brightness. Animation Shop will scroll throught the pattern of leters, redrawing the model at each brightness. Once it gets to the end, it goes back begining. For example 'AAAAAZZAAAAZAAAAAZ' will result in darkness with a few flashed of light. 'GGGGHIJHGFGHJIJFHJF' will be a flickry light at about medium brightness. Once you have entered the patern, click okay. If you want, you can now enter a title for your light pattern, so you can recall it later.
+
+Creating objects
+Any model you make is going to be made out of objects. An object can either be a single face, or a collection of faces, such as a cube. To create an object, select the 'Add object' tool from the edit tool bar (It has a cube on it). You will see the tools on the sidebar change. These tools allow you to select what type of object you want to create. The list box at the top contains some basic shape types, and the slide bars below allow further customizations.
+
+Cubes
+Making sure you are in one of the 2D view modes (one of the first three view tabs), drag the mouse across the main window. You will see a dotted outline of a square appear. When you let go of the mouse, you can drag each corner to get the outline in the right position. Once it is where you want it, you can either press the 'Create object' button, or right click the mouse. You have now created a box
+
+Prisms
+Do the same as creating a cube, but from the list box at the top of the sidebar, select  'Prism'. 4 slide bars below the listbox will become active. Changing these will alter how the object will appear. You can see the changes in the main window. The top slidebar changes the number of edges the prism will have, the second one down changes the angle of the prism. The lower two alter the size of the top and bottom faces, to taper the prism.
+
+Pyramid
+Create this in the same way as prisms. You cannot alter the top or bottom faces in this shape.
+
+Sphere
+Create this in the same way as prisms. In spheres, you can only change the number of horizontal and vertical faces
+
+Torous
+A torous is a donut shape. To create a torous, you use an extra element, an Axis. When you select torous from the shape list, a red dotted line will appear across the edit window. This is the Axis. You can move this line by selecting the 'Move Axis' option at the bottom of the sidebar, and then left dragging on the edit window. If you right click, you can move the angle from horizontal to vertical or back again. To create a torous, first left drag on the edit window. A preview of the torous will be dispayed. What you just dragged is a cross section of the torous. This crossection will be extend in a ring around the axis, and back to the preview again. You can alter the number of edges on the cross section, the angle of the cross section, and the number of faces used to extend the cross section in a complete ring.
+
+Roundoid
+A roundoid is a complex round shape that has a single axis, such as the base of a lamp, or somthing.. It is created differently to other shapes. You have an axis, that is moved in the same way as a torous, but instead of draging a box, you draw a line by repeatedly clicking on the edit window. This line is t2he profile of the spherical object to be created, and this profile is extended around the axis.
+
+Copying Objects
+To create copies of what you have already got, first select the required objects with the select tool. Now, if you want to make just one copy, select 'Edit' 'Duplicate' from the menu. This will create a copy. If you want more than one copy, chose 'Edit' 'Copy', and then 'Edit' 'Paste' as many times as you want. If what ever you have selected is going to be really useful, then you can copy it to a perment file. Select 'Edit' 'Copy to', and enter file name that makes sence. To use the file later, select 'Edit' 'Paste from' and select the required file.
+
+Editing objects
+Once you have the objects in your model, your gonna want to move them around. There are 4 tools to do this. The Select/Move tool, with a white arrow on its button, the Edit Tool, with a red dot on its button, the Scale Tool, with a white box on its button, and finally the Rotate Tool, with a tilted box on its button
+
+Moving objects
+This is done with the select tool. To select an object, click on one of its corners. A blue box will appear around that object. To move it, drag the mouse from anywhere inside the blue box to somwhere else on the screen. When you release, the objects will move. To move joints, simply drag them around by clicking on them and dragging. See the 'selection' section to learn more about selection objects.
+
+Rotating objects
+The rotate tool alters the angle of whatever is selected. For quick rotations of 10 degrees, use the two buttons with the white arrows on. For a more acurate rotation, enter a number on the text box, and then click the button at the bottom of the side bar. You can change where the selected objects will rotate around, using the five option buttons in the middle of the side bar. The options are : 1. Object centers (Even when more that one object is selected, they'll all spin around their own centers) 2. Selection center (Acts as thought all the selected objects are one, and spins them around the center) 3. World center (Rotates the objects around 0,0 where the grey lines cross) 4. Custom (explained below) 5. Around joints (Spins around the joint each object is linked to - See animation section). Custom. If you left right click on the edit window, the custom rotation center will be set to where to clicked. If you then drag the mouse, a line will appear from where you clicked to the mouse, and the angle between where you clicked and the mouse will appear in the text box. When you release the mouse, the selected objects will automaticly rotate around the custom point throught the angle you selected. If you do this with left mouse button, it wont spin the shapes when you release the mouse.
+
+Editing objects
+Where as the other Edit tools alter the position of the selected objects these tools actually alter the shape. There are 4 tools. Squew, Edit, Flip and invert. Edit allows you to move each vertex in the object individually. While this is usefull on small shapes, it becomes impractical on more complex shapes. There are two flip options, horizontal and vertical. Select either and click the button at the bottom to flip the selected objects across that axis. The invert tool reverses the normal of the faces in each of the seleted objects. What this means is that normally, when you make a cube, all six faces point outwards. If you invert the cube, the faces now face INWARDS. Althought you wont see any change in 2D mode, the changes should be obvious in 3D mode, aslong as the 'Hidden faces' option is checked.
+
+Scaling objects
+There are three ways of scaling the selected objects. The quickest is simply to drag the corners of the blue box on the Edit Window. However, if you want to scale an object by a desired amount, then you'll want to use the preset scale mode. This is done by clicking the lower option button. You can now either select a number from the list, or enter one into the text box below. If you enter a '1', the object will stay the same size. '.5' will half the size of the object, and '2' will double it. To alter the shape, click the button at the bottom of the sidebar. This will expand the shape along each axis the same. If you only want to alter the scale along one axis, use the three scroll bars at the top of the edit window. No mater what view mode your in, the axis (X,Y & Z) stay the same. Again, you must click the button at the bottom to complete the opperation.
+
+Animation
+Animation is getting your model to move. The way animation shop does this is basicly skelital animation, except that it uses frames to manuipulate the skeliton. No matter, read on to figure out how to use the system.
+
+Creating a skeliton
+A skeleton in Animation Shop is like a skeliton in your body. Your elbow is attached to your sholder, and your hand is attached to your elbow. When you move your sholder, you elbow moves, and your hand moves. The skin on your model (The object) are attached to one of the joints, and as the joints move, they move the objects attached to them. To create a skeleton, use the last Edit toolbar button. The list box at the top of the side bar displays the joints already in your model. The very top item represents your model itself. To add a joint, select the 'Add Joint' option and click on the edit window. The new joint attach to which ever joint is selected in the list view. If the top item is selected (The model) then the new joint wont be targeted to anything, and wont be effected by other joints.
+
+Creating scenes
+To create scenes, open the 'Scene Editor' window by using 'Animation' 'Edit Scenes' in the menu bar. There are three main parts to this window, and you can move them around by dragging the left edges of each section around. Before you move them around, I'll explain what each one is. The first window is the scene list. It shows the scenes and the frames in each scene. The next window is the frame data window. This contains a grid, one row for each joint in your model, and 6 coloms to alter the angle an poition of each joint. The last window is the 3D window, which lets you see your changes.
+To create a new scene, select the top element in the scene list window, and right click. Select 'Add scene'. A new element appears in the window. This represents a scene. Select it, and right click again. Select 'Add five frames'. As you can guess, five elements appear, each one representing a frame, contained within the selected scene. By selecting and right clicking on the elements, you can add scenes, frames, change names and remove elements.
+
+Editing frames
+Now you've got frames and scenes, you can now edit the scenes. basicly, if you have 10 frames, and you know what movement you want to create, create the start position in the first frame, the ending position in the last frame, and then make the frames in between go from the first one to the last one.
+In each frame, you change the angle and position of each joint by changing the numbers in the grid.  YADA YADA explains later.
+
+Exporting files
+Once you have created a model, and created frames, and stuff, you're gonna need to export the model to use it in other programs, games etc... To export a model, select 'File' 'Export..' from the menu, and then press the 'Export' button. Have a look at the different options there are avalible.
+
+Export modes
+Animation Shop has a few different formats to export to. The first mode is single faces, where each object is broken into indivdual faces. This results in an iniffecient way of storing files. Its probebly best not to use this mode. There are two other modes, which are much better. 'Full Compression' mode picks out all the unique vertecies and stores them in a file, and then recreates the faces by linking the unique vertecies together. This can take along time if you use large, spherical shapes, and wont result in much optemisation anyway. If your model has mostly cubes and flat faces, use Full Compression' 'Quick export' compresses a model much faster, and stuff...?
+
+Exporting frames
+To export more that one frame, select the 'Frames' tab at the top of the Export window. The list on the left shows all the scenes and frames in your model. To export everything in your model, put a check in the box oposite your models name. To export an entire scene, put a check in the box next to the scenes name. To export only a few frames, put ticks next to all the frames you want to export.
+
+Exporting as bitmaps
+You can create a single screen shot of the view window by selecting 
+'View' 'Screen Shot..' 'Screen Shot' from the menu. Alternativly, you can save each frame of a sceane into a bitmap by selecting 'View' 'Screen Shot..' 'Record scene'. Before selecting this, make sure that you press 'stop' first. found on the Misq toolbar. Now select 'Record scene', and press the play button. Each frame will be displayed and then saved into a bitmap. You can stick all these seperate pics into a single GIF, if you've gove much a graphics program avalible.
+
+Importing files
+This allows you to add objects to your model, even when they are stored in different formats. There are only 3 formats avalible at this time, and they as as follows ASC DAT & MAP. There should be examples of each format supplied, so open each one in notepad to have a look at them. DAT files are created when you export a model in Full Comprssion mode. ASC files are in a common format which many 3D editors can use. If you have a model in another editor, chances are you can save the model in ASC format, and load it into Animaton Shop. MAP files are intended to create a contored plane to generate a landscape. Have a look at the examples to see what I mean.
+
+

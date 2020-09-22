@@ -1,0 +1,41 @@
+                  Animation Shop 6
+		--------------------
+
+Create 3D models with the following features:
+
+Load, Save, Reverse, Scale, Name, Save, Compile
+Expand, Group, Play, Copy, Rotate, Bend, Create
+Customize, Render, Animate, Import, Zoom, Flip
+
+Help and examples included.
+
+This program is not complete. If I went on the way
+i'm going, it'll never be complete. This is because
+I keep adding new features as I think of them. Yeah,
+theres things I want to add, like keyframing for
+example, but thats not going to be till I make a key
+frame driven 3D engine, which won't be untill I....
+
+It goes on, and this program never gets finished. So
+you can have it now, as it is. Its pretty good. I finx.
+
+Apparently someone else has a program of the same name
+on PSC. This is a different program, if you don't like
+it, sue me.
+
+There arnt any exes in this zip file, but I sugest you
+compile the two *.vbp files, one for the editor, on for
+the help program, then place them in the folder containing 
+all the *.am5 files. You can then run the EXEs, for
+convenience. 
+
+If you like this program, you can make it better by
+assigning the *.am5 file type to the Animation Shop
+EXE. You can then double click on a am5 file to open
+it.
+
+To get proper help, go 'Help' 'Help' on the menu. It
+should actually help you a bit, I hope.
+
+				
+				Magic Mushroom Software.
